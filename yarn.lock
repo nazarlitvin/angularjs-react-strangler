@@ -1633,14 +1633,7 @@
   dependencies:
     "@babel/runtime" "^7.12.5"
 
-"@types/angular-resource@^1.5.16":
-  version "1.5.16"
-  resolved "https://registry.yarnpkg.com/@types/angular-resource/-/angular-resource-1.5.16.tgz#e32faef37c9e0557f5042b081746a666118af547"
-  integrity sha512-EJGp5Qxa+w2AHGW8Y+UUsYTTF+Kh68sFhI9YzXzM7n8pB91VGWynELQ/R3rTVE2xtxyiu+F2WU2mOQC4NUvWrA==
-  dependencies:
-    "@types/angular" "*"
-
-"@types/angular@*", "@types/angular@^1.6.39":
+"@types/angular@^1.6.39":
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/@types/angular/-/angular-1.8.1.tgz#940b16476adff7b66608aae778e5e9f1c57ab847"
   integrity sha512-8zEjTC3gpkva6/dbUkiSxIUGUxYm9HD/pJJ0lbqfEM2TWqi/3vs4VtgoFxVXt5bmuJ+6G2caO2HaMD+NzB1VwA==
@@ -2264,17 +2257,27 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-angular-resource@^1.8.2:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/angular-resource/-/angular-resource-1.8.2.tgz#fc1f1adb93dfb83e295d1cfff2a48cec4296e20a"
-  integrity sha512-CbTu8ypkVZMBLm+Wd+jI9xR7QEVCeUgN8WXsr9Yi9l0s/8ZQa5kEIuYX3F/75Ej8Xs1Jp9DoKjAyvACI6Q8IJA==
+angular-component@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/angular-component/-/angular-component-0.1.3.tgz#7a43d63aec06df87a9dcb48758fd1522147f17a0"
+  integrity sha1-ekPWOuwG34ep3LSHWP0VIhR/F6A=
 
-angular-route@^1.8.2:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/angular-route/-/angular-route-1.8.2.tgz#d482bf05a8c9e448300acd8f9989c635d31b5077"
-  integrity sha512-49LJYxuaQ/ZDiu9dD2xo1LkazqObkGjw0a7dUF7UKCT8EELgBsMd6QrI6aEVGtI62ppkiFkxqmiV8fcwYdXpug==
+angular-resource@1.4.8:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/angular-resource/-/angular-resource-1.4.8.tgz#aa3168ad2b98ffdfea2208c465cce6f4ca0a0d37"
+  integrity sha1-qjForSuY/9/qIgjEZczm9MoKDTc=
 
-angular@>=1.5, angular@>=1.5.0, angular@^1.8.2:
+angular-route@1.4.8:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/angular-route/-/angular-route-1.4.8.tgz#dffb646fa7ea10f29870875d60bd3729fe217cb7"
+  integrity sha1-3/tkb6fqEPKYcIddYL03Kf4hfLc=
+
+angular@1.4.8:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/angular/-/angular-1.4.8.tgz#f4573d5019d21ebf44a6b5c28a14fbd9d5967449"
+  integrity sha1-9Fc9UBnSHr9EprXCihT72dWWdEk=
+
+angular@>=1.5, angular@>=1.5.0:
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/angular/-/angular-1.8.2.tgz#5983bbb5a9fa63e213cb7749199e0d352de3a2f1"
   integrity sha512-IauMOej2xEe7/7Ennahkbb5qd/HFADiNuLSESz9Q27inmi32zB0lnAsFeLEWcox3Gd1F6YhNd1CP7/9IukJ0Gw==
