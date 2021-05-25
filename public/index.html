@@ -23,6 +23,11 @@
     <div id="root"></div>
     <ng-view></ng-view>
 
+    <script type="text/ng-template" id="lazy-index.html">
+      <p>Open inspector to see that Ag Grid was loaded dynamically</p>
+      <a href="#/">Back to main</a>
+    </script>
+
     <script type="text/ng-template" id="todomvc-index.html">
       <section class="todoapp">
         <header class="header">
@@ -68,6 +73,7 @@
           <button class="clear-completed" ng-click="clearCompletedTodos()" ng-show="completedCount">Clear completed</button>
         </footer>
       </section>
+      <a href="#/lazy-page">Demo lazy page</a>
       <footer class="info">
         <p>Double-click to edit a todo</p>
         <p>Credits:
